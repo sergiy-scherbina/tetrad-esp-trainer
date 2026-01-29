@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+
+:root {
+  --background: url("/static/texture/noise_bgr.png");
+  --foreground: #ffffff;
+}
+
+body {
+  touch-action: manipulation;
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.p-glow {
+  position: relative;
+}
+
+.p-glow::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  width: 300px;
+  height: 300px;
+  margin: auto;
+
+  background: radial-gradient(ellipse 60% 40%, rgba(139, 92, 246, 0.2) 20%, rgba(139, 92, 246, 0) 95%);
+}
