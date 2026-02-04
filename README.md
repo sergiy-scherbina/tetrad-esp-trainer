@@ -1,14 +1,20 @@
 # Tetrad ESP Trainer
 
+
+Technical Task: https://docs.google.com/document/d/118yQHlmUdN0wmOQ8nc-E6tUGHBSTGT0jdai5uxWtj18/edit?tab=t.0
+
+Design source: https://www.figma.com/design/GbH9QpW45Px4qHFGeYRH1R/Tablet-Tetrad-Test?node-id=1-912 
+
 A Next.js 14+ application designed for ESP training research. Users identify a hidden image across 24 trials.
 
+
 ## Technology Stack
-- **Backend**: Next.js 16 (App Router)
+- **Backend**: Next.js 16
 - **Frontend**: React 19
 - **Language**: TypeScript
 - **Styling**: Tailwind CSS v4, Framer Motion
 - **State Management**: Zustand
-- **Database**: Firebase (Firestore)
+- **Database**: Firebase
 - **Testing**: Vitest
 
 ## Features
@@ -53,12 +59,22 @@ npm run dev
 npm test
 ```
 
-Technical Task: https://docs.google.com/document/d/118yQHlmUdN0wmOQ8nc-E6tUGHBSTGT0jdai5uxWtj18/edit?tab=t.0
 
-Design source: https://www.figma.com/design/GbH9QpW45Px4qHFGeYRH1R/Tablet-Tetrad-Test?node-id=1-912 
+## Deployment
+This project is configured for easy deployment on Vercel.
+1. Push to GitHub.
+2. Import project in Vercel.
+3. Add the Firebase environment variables in Project Settings.
+4. Deploy.
+
+
+
+Live URL: https://my-esp.vercel.app/
+
+GitHub link: https://github.com/sergiy-scherbina/tetrad-esp-trainer
+
 
 ## Time Tracking
-
 
 | Task | Estimated Time |
 |------|----------------|
@@ -77,16 +93,3 @@ Design source: https://www.figma.com/design/GbH9QpW45Px4qHFGeYRH1R/Tablet-Tetrad
 | README & documentation | 20m |
 | Buffer for bug fixing & refinements | 45m |
 | **Total** | **~9h 15m** |
-
-## Deployment
-This project is configured for easy deployment on Vercel.
-1. Push to GitHub.
-2. Import project in Vercel.
-3. Add the Firebase environment variables in Project Settings.
-4. Deploy.
-
-
-
-Live URL: https://my-esp.vercel.app/
-
-GitHub: https://github.com/sergiy-scherbina/tetrad-esp-trainer
