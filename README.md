@@ -53,14 +53,25 @@ npm test
 ```
 
 ## Time Tracking
-| Task | Time |
-|------|------|
-| Project Setup & Config | 15m |
-| Game Logic & State | 25m |
-| UI Implementation (Grid/Cell) | 30m |
-| Page & Flow Integration | 15m |
-| Testing & Validation | 15m |
-| **Total** | **~1h 40m** |
+
+
+| Task | Estimated Time |
+|------|----------------|
+| Project setup (Next.js 14, TS strict, Tailwind, Firebase init, env vars) | 45m |
+| Firebase data model design (images, trials, aggregation logic) | 40m |
+| Trial generation logic (24 trials, random image & position, typing) | 30m |
+| Game state & flow (auto-advance, timing, edge cases) | 1h 15m |
+| UI implementation (2×2 grid, button states, responsiveness) | 1h |
+| Animations (double tap reveal, skip animation, timing sync) | 45m |
+| Input handling (tap / hold / double tap logic) | 45m |
+| Progress bar & score tracking | 25m |
+| Results screen (final score, new round flow) | 25m |
+| Testing (minimum 2 unit tests + setup) | 45m |
+| Mobile QA & adjustments | 30m |
+| Deployment (Vercel, Firebase prod check, env vars) | 20m |
+| README & documentation | 20m |
+| Buffer for bug fixing & refinements | 45m |
+| **Total** | **~9h 15m** |
 
 ## Deployment
 This project is configured for easy deployment on Vercel.
@@ -69,5 +80,6 @@ This project is configured for easy deployment on Vercel.
 3. Add the Firebase environment variables in Project Settings.
 4. Deploy.
 
-Live URL: [Insert Vercel URL]
-GitHub: [Insert GitHub URL]
+Design source: https://www.figma.com/design/GbH9QpW45Px4qHFGeYRH1R/Tablet-Tetrad-Test?node-id=1-912
+Live URL: https://my-esp.vercel.app/
+GitHub: https://github.com/sergiy-scherbina/tetrad-esp-trainer

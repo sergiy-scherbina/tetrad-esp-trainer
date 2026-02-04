@@ -39,7 +39,7 @@ export const RevealModal = () => {
                             stiffness: 300,
                             damping: 25
                         }}
-                        className="relative aspect-square h-full bg-[#151533] overflow-hidden shadow-2xl flex-shrink-0 select-none"
+                        className="relative aspect-square bg-[#151533] overflow-hidden shadow-2xl flex-shrink-0 select-none h-[min(100vh,100vw)] w-[min(100vh,100vw)]"
                         onPointerDown={(e) => {
                             e.stopPropagation();
                             completeTrial();
