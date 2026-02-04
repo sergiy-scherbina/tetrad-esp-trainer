@@ -3,11 +3,12 @@
 A Next.js 14+ application designed for ESP training research. Users identify a hidden image across 24 trials.
 
 ## Technology Stack
-- **Framework**: Next.js 16 (App Router)
+- **Backend**: Next.js 16 (App Router)
+- **Frontend**: React 19
 - **Language**: TypeScript
 - **Styling**: Tailwind CSS v4, Framer Motion
 - **State Management**: Zustand
-- **Backend**: Firebase (Firestore)
+- **Database**: Firebase (Firestore)
 - **Testing**: Vitest
 
 ## Features
@@ -52,6 +53,10 @@ npm run dev
 npm test
 ```
 
+Technical Task: https://docs.google.com/document/d/118yQHlmUdN0wmOQ8nc-E6tUGHBSTGT0jdai5uxWtj18/edit?tab=t.0
+
+Design source: https://www.figma.com/design/GbH9QpW45Px4qHFGeYRH1R/Tablet-Tetrad-Test?node-id=1-912 
+
 ## Time Tracking
 
 
@@ -80,6 +85,8 @@ This project is configured for easy deployment on Vercel.
 3. Add the Firebase environment variables in Project Settings.
 4. Deploy.
 
-Design source: https://www.figma.com/design/GbH9QpW45Px4qHFGeYRH1R/Tablet-Tetrad-Test?node-id=1-912
+
+
 Live URL: https://my-esp.vercel.app/
+
 GitHub: https://github.com/sergiy-scherbina/tetrad-esp-trainer
